@@ -1,0 +1,71 @@
+/* App-specific styles */
+
+/* Additional Tailwind-like utility classes */
+.bg-void {
+  background-color: #0a0a12;
+}
+
+.bg-deep {
+  background-color: #141824;
+}
+
+.bg-twilight {
+  background-color: #1a1f2e;
+}
+
+.text-gold {
+  color: #d4af37;
+}
+
+.text-cosmic {
+  color: #6366f1;
+}
+
+.text-mystic {
+  color: #8b5cf6;
+}
+
+.border-cosmic {
+  border-color: #6366f1;
+}
+
+.border-gold {
+  border-color: #d4af37;
+}
+
+/* Gradient utilities */
+.from-cosmic {
+  --tw-gradient-from: #6366f1;
+}
+
+.to-mystic {
+  --tw-gradient-to: #8b5cf6;
+}
+
+.from-gold {
+  --tw-gradient-from: #d4af37;
+}
+
+.to-amber {
+  --tw-gradient-to: #f59e0b;
+}
+
+/* Responsive container */
+.container-app {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-app {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-app {
+    padding: 0 2rem;
+  }
+}
